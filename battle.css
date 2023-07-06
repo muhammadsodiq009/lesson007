@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.main{
+    width: 800px;
+    height: 600px;
+    background: dodgerblue;
+    margin-top: 15px;
+    margin-left: 350px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mouse{
+    width: 200px;
+    height: 250px;
+    background: black;
+    border-radius: 40px;
+    transform: rotate(-25deg)
+
+}
+.ctrl{
+    width: 15px;
+    height: 45px;
+    background: gray;
+    border-radius: 7px;
+    margin-left: 90px;
+    margin-top: 30px;
+}
+
+
